@@ -1,0 +1,163 @@
+body {
+  background-color: #fff8ee;
+}
+
+.header {
+  dislay: flex;
+  position: relative;
+}
+
+.topPic {
+  width: 100vw;
+  display: flex;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  /*margin-right: -70vw;*/
+  margin-top: -1rem;
+  padding: 0;
+}
+
+.primaryHeading {
+  position: absolute;
+  text-align: center;
+  color: white;
+  margin-top: -30vw;
+  z-index: 100;
+  width: 100%;
+  font-size: 3vw;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+
+.secondaryHeading {
+  position: absolute;
+  text-align: center;
+  color: white;
+  margin-top: -25vw;
+  z-index: 100;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 2vw;
+}
+
+.leadin {
+  display: flex;
+  margin: 2vw;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.introStuffPic {
+  width: 21vw;
+  height: 21vw;
+  padding: 1vw;
+}
+
+.leadPara {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-weight: normal;
+}
+
+.normalPara {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-weight: normal;
+}
+
+.buttons {
+  background-color: #ffcb8f;
+  color: black;
+  border: none;
+  width: 25%;
+  height: auto;
+  padding: 2%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-weight: bold;
+  min-width: 200px;
+}
+
+.buttons:hover {
+  background-color: #f8ae59;
+  font-weight: bolder;
+}
+
+.tilePic {
+  height: auto;
+  width: 20rem;
+}
+
+.tilesList {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.tile {
+  width: 20rem;
+  padding: 1rem;
+  margin: 0;
+  list-style: none;
+}
+
+.thirdHeader {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: bold;
+}
+
+.furtherInfo {
+  width: 50%;
+  margin: auto;
+}
+
+.bulletPoints {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.ending {
+  width: 60%;
+  margin: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.deerPic {
+  width: 100%;
+  height: auto;
+  padding: 1%;
+}
+
+.actionText {
+  width: 60%;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 100%;
+  text-align: center;
+}
+
+#bottomButton {
+  margin: 2%;
+  padding: 1%;
+}
+
+.buttonPos {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerText {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  text-size: 75%;
+  text-align: center;
+}
